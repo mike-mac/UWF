@@ -324,3 +324,6 @@ If($UWF_Feature -eq "Disabled"){
     }
  
 }
+
+# Credits: https://jritconsultancy.wordpress.com/tag/unified-write-filter/
+#Used the above script and pieced together what I need for my lab environment
