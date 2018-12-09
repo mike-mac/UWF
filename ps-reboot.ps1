@@ -1,5 +1,6 @@
-﻿# .\ps-reboot.ps1 -lock 'True' -time '9:00PM' -time2 '6:30AM'
+# .\ps-reboot.ps1 -lock 'True' -time '9:00PM' -time2 '6:30AM'
 #Reboot on Lock.xml must be in same directory as script
+#essentailly Lock.xml is an export task from task scheduler. In this case I exported a task that reboots the machine if the user locks the workstation
 
 Param(
   [string]$lock, #True
